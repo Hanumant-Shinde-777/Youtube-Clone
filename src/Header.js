@@ -20,14 +20,14 @@ function Header() {
       </div>
 
       <div className="header__input">
-        <input type="text" />
-        <SearchIcon />
+        <input placeholder="Search" type="text" />
+        <SearchIcon className="header__inputButton" />
       </div>
 
       <div className="header__icons">
-        <VideoCallIcon />
-        <AppsIcon />
-        <CircleNotificationsIcon />
+        <VideoCallIcon className="header__icon" />
+        <AppsIcon className="header__icon" />
+        <CircleNotificationsIcon className="header__icon"/>
         <AccountCircleIcon
           alt="User"
           src="https://www.freeiconspng.com/uploads/account-icon-5.jpg"
