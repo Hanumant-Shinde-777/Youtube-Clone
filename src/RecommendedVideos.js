@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './RecommendedVideos'
 function RecommendedVideos() {
   return (
-    <div>
+    <div className="recommendedVideos">
         <h2>this is the recmmonded video</h2>
     </div>
   )
