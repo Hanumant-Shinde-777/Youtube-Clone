@@ -12,7 +12,7 @@ function Sidebar() {
     <SidebarRow selected Icon ={HomeIcon} title ="Home" />
       <SidebarRow Icon ={WhatshotIcon} title ="Trending" />
       <SidebarRow Icon ={SubscriptionsIcon} title ="Subscriptions" />
-      
+      <hr />
     </div>
   )
 }
