@@ -3,7 +3,7 @@ import './RecommendedVideos'
 function RecommendedVideos() {
   return (
     <div className="recommendedVideos">
-        <h2>this is the recmmonded video</h2>
+        <h2> recmmonded</h2>
     </div>
   )
 }
