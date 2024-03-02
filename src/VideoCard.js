@@ -1,5 +1,7 @@
 import React from 'react'
+import './VideoCard.css'
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+
 function VideoCard({image, title, channel, views, timestamp,channelImage}) {
   return (
     <div className="videoCard">
@@ -25,4 +27,3 @@ function VideoCard({image, title, channel, views, timestamp,channelImage}) {
 }
 
 export default VideoCard
-//1.59.1
