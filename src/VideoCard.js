@@ -5,7 +5,7 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 function VideoCard({image, title, channel, views, timestamp,channelImage}) {
   return (
     <div className="videoCard">
-     <img src={image} alt="" />
+     <img className="videoCard__thumbnail" src={image} alt="" />
     <div className="videoCard__info">
       <AccountCircleOutlinedIcon 
       className ="video__avatar" 
@@ -27,3 +27,5 @@ function VideoCard({image, title, channel, views, timestamp,channelImage}) {
 }
 
 export default VideoCard
+
+// 2.2
