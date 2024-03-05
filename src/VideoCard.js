@@ -12,7 +12,7 @@ function VideoCard({image, title, channel, views, timestamp,channelImage}) {
       alt={channel} 
       src={channelImage}
       />
-  <div className="video__text">
+  <div className="videoCard__text">
 <h4>{title}</h4>
 <p>{channel}</p>
 <p>
@@ -28,4 +28,3 @@ function VideoCard({image, title, channel, views, timestamp,channelImage}) {
 
 export default VideoCard
 
-// 2.2
