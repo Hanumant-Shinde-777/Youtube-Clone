@@ -9,22 +9,25 @@ function App() {
   return (
     <div className="app">
     <Router>
+    <Header />
       <Switch>
         <Route path ="/search">
+          
           <h1>Search page</h1>
         </Route>
 
         <Route path ="/">
-          <h1>Home page</h1>
+  
+      
+    <div className="app__page">
+    <Sidebar />
+    <RecommendedVideos />
+    </div>
         </Route>
 
       </Switch>
     </Router>
-     {/* <Header />
-    <div className="app__page">
-    <Sidebar />
-    <RecommendedVideos />
-    </div> */}
+   
     </div>
   );
 }
