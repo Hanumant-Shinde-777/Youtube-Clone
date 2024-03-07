@@ -11,7 +11,7 @@ function App() {
     <Router>
     <Header />
       <Switch>
-        <Route path ="/search">
+        <Route path ="/search/:searchTerm">
           
           <h1>Search page</h1>
         </Route>
