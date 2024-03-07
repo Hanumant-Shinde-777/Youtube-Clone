@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 import SearchIcon from "@mui/icons-material/Search";
@@ -8,6 +8,8 @@ import CircleNotificationsIcon from "@mui/icons-material/CircleNotifications";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 function Header() {
+const [inputSearch, setInputSearch] = useState ('');
+
   return (
     <div className="header">
       <div className="header__left">
@@ -20,7 +22,7 @@ function Header() {
       </div>
 
       <div className="header__input">
-        <input placeholder="Search" type="text" />
+        <input  onChange={e =>setInputSearch(e.target.value)} value={inputSearch} placeholder="Search" type="text" />
         <SearchIcon className="header__inputButton" />
       </div>
 
