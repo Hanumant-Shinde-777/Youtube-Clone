@@ -1,6 +1,7 @@
 import React from "react";
-import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 import "./ChannelRow.css";
+import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
+
 
 function ChannelRow(image, channel, subs, noOfVideos, description, verified) {
   return 
@@ -9,9 +10,13 @@ function ChannelRow(image, channel, subs, noOfVideos, description, verified) {
         className="channel__logo"
         alt={channel}
         src={image}
-      />
-    </div>;
+         
+         />
+      </div>
+      
+    
   
 }
 
 export default ChannelRow;
+//2 12
