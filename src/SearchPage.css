@@ -14,3 +14,11 @@
 .searchPage__filter > h2 {
     margin-left: 10px;
 }
+
+.searchPage > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
