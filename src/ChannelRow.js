@@ -1,3 +1,4 @@
+//parameters added 
 import React from "react";
 import "./ChannelRow.css";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
