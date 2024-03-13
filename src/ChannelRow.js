@@ -1,7 +1,7 @@
 import React from "react";
 import "./ChannelRow.css";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
-CheckCircleIcon;
+
 function ChannelRow({
   image,
   channel,
@@ -20,7 +20,7 @@ function ChannelRow({
       <div className="channelRow__text">
         <h4>
           {channel}
-          {CheckCircleIcon && <CheckCircleIcon />}
+          { verified && <AccountCircleRoundedIcon />}
         </h4>
         <p> {subs} subcribers. {noOfVideos} video </p>
         <p> {description} </p>
