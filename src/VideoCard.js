@@ -1,4 +1,4 @@
-//Video Card
+//Video Card file
 import React from 'react'
 import './VideoCard.css'
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
