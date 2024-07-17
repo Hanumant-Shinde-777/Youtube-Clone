@@ -1,3 +1,5 @@
+
+// package imported
 //parameters added 
 import React from "react";
 import "./ChannelRow.css";
