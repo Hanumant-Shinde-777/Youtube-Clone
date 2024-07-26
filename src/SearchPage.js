@@ -1,6 +1,7 @@
 
 
 // error fixed
+//package imported 
 import React from "react";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
