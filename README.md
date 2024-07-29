@@ -81,3 +81,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     <pre><code>npm install</code></pre>
   </li>
 </ol>
+
+<h2>📂 Project Structure</h2>
+<pre>
+/project-root
+│
+├── /src
+│   ├── /components
+│   ├── /utils
+│   ├── index.js
+│   ├── app.js
+│
+├── /public
+│   ├── index.html
+│
+├── /tests
+│   ├── /unit
+│   ├── /integration
+│
+├── package.json
+├── README.md
+</pre>
