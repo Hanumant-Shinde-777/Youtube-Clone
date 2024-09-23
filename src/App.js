@@ -19,7 +19,6 @@ function App() {
               <Sidebar />
               <SearchPage />
             </div>
-
           </Route>
 
           <Route path="/">
